@@ -2,7 +2,7 @@
 <div class="p-2 bg-ungu-medium">
     <div class="row d-flex flex-row-reverse">
         <div class="col-12 col-md-3">
-            <img src="https://ungu.in/assets/img/hero-girl.png" style="width:100%;">
+            <img src="" style="width:100%;">
         </div>
         <div class="col-12 col-md-9">
             <div class="rounded-3 text-white">
