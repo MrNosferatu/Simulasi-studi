@@ -6,6 +6,7 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('index');
+        $data['title'] = 'Simulasi Study'; 
+        return view('index', $data);
     }
 }

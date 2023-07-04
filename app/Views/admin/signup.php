@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include '../layouts/header.php'; ?>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-
-<body>
   <form action="<?= base_url('/signup') ?>" method="post">
     <input type="hidden" name="_method" value="PUT">
 
@@ -28,6 +20,4 @@
       <input type="password" id="confirm_password" name="confirm_password" required minlength="8" value="11111111">
     </div>
     <button type="submit">Save</button>
-</body>
-
-</html>
+    <?php include '../layouts/footer.php'; ?>

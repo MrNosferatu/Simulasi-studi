@@ -9,14 +9,19 @@ class AdminLogin extends BaseController
 {
     public function index()
     {
-        return view('admin/login');
+        $session = session();
+        if ($session->get('logged_in')) {
+            return redirect()->to('/dashboard');
+        }
+        $data['title'] = 'Login'; 
+        return view('admin/login', $data);
     }
     public function authentication()
     {
         $model = new AdminLoginModel();
-        $username = $this->request->getPost('email');
+        $email = $this->request->getPost('email');
         $password = $this->request->getPost('password');
-        $user = $model->where('username', $username)->first();
+        $user = $model->where('email', $email)->first();
 
         if ($user && password_verify($password, $user['password'])) {
             $session = session();
@@ -29,7 +34,8 @@ class AdminLogin extends BaseController
     }
     public function signup()
     {
-        return view('admin/signup');
+        $data['title'] = 'Signup'; 
+        return view('admin/signup', $data);
     }
     public function register()
     {

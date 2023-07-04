@@ -31,8 +31,22 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/login', 'AdminLogin::index');
+$routes->post('/login', 'AdminLogin::authentication');
 $routes->get('/signup', 'AdminLogin::signup');
 $routes->put('/signup', 'AdminLogin::register');
+$routes->get('/data/form', 'simDataController::index');
+$routes->post('/data/fakultas/store', 'simDataController::fakultas_store');
+$routes->post('/data/prodi/store', 'simDataController::prodi_store');
+$routes->post('/data/matakuliah/store', 'simDataController::matakuliah_store');
+$routes->post('/data/konsentrasi/store', 'simDataController::konsentrasi_store');
+$routes->post('/data/konsentrasi_matakuliah/store', 'simDataController::konsentrasi_matakuliah_store');
+$routes->get('/simulasi', 'simulasiController::index');
+$routes->get('/get-data', 'simulasiController::getData');
+$routes->get('/get-matakuliah', 'simulasiController::getSemester');
+$routes->get('/get-konsentrasi', 'simulasiController::getKonsentrasi');
+
+
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
