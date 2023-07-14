@@ -1,4 +1,4 @@
-<?php include '../layouts/header.php'; ?>
+<?php include (APPPATH .'views/layouts/header.php'); ?>
 
   <form action="<?= base_url('/signup') ?>" method="post">
     <input type="hidden" name="_method" value="PUT">
@@ -20,4 +20,4 @@
       <input type="password" id="confirm_password" name="confirm_password" required minlength="8" value="11111111">
     </div>
     <button type="submit">Save</button>
-    <?php include '../layouts/footer.php'; ?>
+    <?php include (APPPATH .'views/layouts/footer.php'); ?>

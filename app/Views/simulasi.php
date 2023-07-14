@@ -1,4 +1,29 @@
 <?php include 'layouts/header.php'; ?>
+<?php include(APPPATH . 'views/layouts/public/navbar.php'); ?>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+    #backButton {
+        border-radius: 4px;
+        padding: 8px;
+        border: none;
+        font-size: 16px;
+        background-color: #2eacd1;
+        color: white;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+    }
+
+    .invisible {
+        display: none;
+    }
+</style>
+
+<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script src="https://cdn.canvasjs.com/jquery.canvasjs.min.js"></script>
+
+
 <div class="container p-5">
     <h1>Simulasi Studi</h1>
     <div class="row">
@@ -16,11 +41,22 @@
                 <div id="prodiField"></div>
                 <div id="matakuliahField"></div>
                 <div id="sksField" class="mb-3">Total SKS: 0</div>
+                <div id="gradesField" class="mb-3"></div>
+                <div id="ipkField" class="mb-3"></div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>
     </div>
+    <div class="row">
+        <div class="col">
+            <canvas id="sksChartContainer"></canvas>
+        </div>
+        <div class="col">
+            <canvas id="ipkChartContainer"></canvas>
+        </div>
+    </div>
 </div>
+
 <script>
     window.addEventListener('beforeunload', event => {
         event.preventDefault(); // Cancel the default behavior

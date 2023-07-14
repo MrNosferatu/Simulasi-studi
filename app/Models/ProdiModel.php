@@ -8,6 +8,6 @@ class prodiModel extends Model
 {
     protected $table = 'prodi';
     protected $primaryKey = 'kode_prodi';
-    protected $allowedFields = ['nama', 'sks_minimal', 'nilai_d_maksimal', 'kode_fakultas'];
+    protected $allowedFields = ['nama', 'sks_minimal', 'nilai_d_maksimal', 'kode_fakultas','ipk_minimal'];
     protected $returnType = 'array';
 }

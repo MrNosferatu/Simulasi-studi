@@ -16,7 +16,7 @@ class simDataController extends BaseController
         $data['prodi'] = $prodiModel->findAll();
         $data['matakuliah'] = $matakuliahModel->findAll();
         $data['konsentrasi'] = $konsentrasiModel->findAll();
-        $data['title'] = 'Simulasi'; 
+        $data['title'] = 'Simulasi';
 
         return view('admin/data/form', $data);
     }
@@ -28,9 +28,30 @@ class simDataController extends BaseController
         );
         $model = new \App\Models\FakultasModel();
         $model->insert($data);
-        return redirect()->back();
+        $data = $model->findAll();
+        return $this->response->setJSON($data);
+    }
+    public function fakultas_update()
+    {
+        $id = $this->request->getPost('id');
+        $data = array(
+            'nama' => $this->request->getPost('nama')
+        );
+        $model = new \App\Models\FakultasModel();
+        $model->update($id, $data);
+        $data = $model->findAll();
+        return $this->response->setJSON($data);
+        // return redirect()->back();
     }
 
+    public function fakultas_delete()
+    {
+        $id = $this->request->getPost('id');
+        $model = new \App\Models\FakultasModel();
+        $model->delete($id);
+        $data = $model->findAll();
+        return $this->response->setJSON($data);
+    }
     public function prodi_store()
     {
         $data = array(
@@ -41,9 +62,33 @@ class simDataController extends BaseController
         );
         $model = new \App\Models\ProdiModel();
         $model->insert($data);
-        return redirect()->back();
+        $data = $model->findAll();
+        return $this->response->setJSON($data);
+    }
+    public function prodi_update()
+    {
+        $id = $this->request->getPost('id');
+        $data = array(
+            'nama' => $this->request->getPost('nama'),
+            'sks_minimal' => $this->request->getPost('sks_minimal'),
+            'nilai_d_maksimal' => $this->request->getPost('nilai_d_maksimal'),
+            'ipk_minimal' => $this->request->getPost('ipk_minimal')
+        );
+        $model = new \App\Models\ProdiModel();
+        $model->update($id, $data);
+        $data = $model->findAll();
+        return $this->response->setJSON($data);
+        // return redirect()->back();
     }
 
+    public function prodi_delete()
+    {
+        $id = $this->request->getPost('id');
+        $model = new \App\Models\ProdiModel();
+        $model->delete($id);
+        $data = $model->findAll();
+        return $this->response->setJSON($data);
+    }
     public function matakuliah_store()
     {
         $data = array(
@@ -51,12 +96,37 @@ class simDataController extends BaseController
             'nama' => $this->request->getPost('nama'),
             'sks' => $this->request->getPost('sks'),
             'sifat' => $this->request->getPost('sifat'),
-            'nilai_minimal' => $this->request->getPost('nilai_minimal'), 
+            'nilai_minimal' => $this->request->getPost('nilai_minimal'),
             'semester' => $this->request->getPost('semester')
         );
         $model = new \App\Models\matakuliahModel();
         $model->insert($data);
-        return redirect()->back();
+        return $this->response->setJSON($data);    }
+
+    public function matakuliah_update()
+    {
+        $id = $this->request->getPost('id');
+        $data = array(
+            'nama' => $this->request->getPost('nama'),
+            'sks' => $this->request->getPost('sks'),
+            'sifat' => $this->request->getPost('sifat'),
+            'nilai_minimal' => $this->request->getPost('nilai_minimal'),
+            'semester' => $this->request->getPost('semester')
+        );
+        $model = new \App\Models\matakuliahModel();
+        $model->update($id, $data);
+        $data = $model->findAll();
+        return $this->response->setJSON($data);
+        // return redirect()->back();
+    }
+
+    public function matakuliah_delete()
+    {
+        $id = $this->request->getPost('id');
+        $model = new \App\Models\matakuliahModel();
+        $model->delete($id);
+        $data = $model->findAll();
+        return $this->response->setJSON($data);
     }
 
     public function konsentrasi_store()

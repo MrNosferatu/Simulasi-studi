@@ -31,19 +31,30 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/login', 'AdminLogin::index');
+$routes->get('/dashboard', 'dashboardController::index');
+$routes->get('/dashboard/fakultas', 'dashboardController::fakultas');
+$routes->get('/dashboard/prodi', 'dashboardController::prodi');
+$routes->get('/dashboard/matakuliah', 'dashboardController::matakuliah');
 $routes->post('/login', 'AdminLogin::authentication');
 $routes->get('/signup', 'AdminLogin::signup');
 $routes->put('/signup', 'AdminLogin::register');
-$routes->get('/data/form', 'simDataController::index');
 $routes->post('/data/fakultas/store', 'simDataController::fakultas_store');
+$routes->post('/data/fakultas/update', 'simDataController::fakultas_update');
+$routes->post('/data/fakultas/delete', 'simDataController::fakultas_delete');
+$routes->post('/data/prodi/store', 'simDataController::prodi_store');
+$routes->post('/data/prodi/update', 'simDataController::prodi_update');
+$routes->post('/data/prodi/delete', 'simDataController::prodi_delete');
 $routes->post('/data/prodi/store', 'simDataController::prodi_store');
 $routes->post('/data/matakuliah/store', 'simDataController::matakuliah_store');
+$routes->post('/data/matakuliah/update', 'simDataController::matakuliah_update');
+$routes->post('/data/matakuliah/delete', 'simDataController::matakuliah_delete');
 $routes->post('/data/konsentrasi/store', 'simDataController::konsentrasi_store');
 $routes->post('/data/konsentrasi_matakuliah/store', 'simDataController::konsentrasi_matakuliah_store');
 $routes->get('/simulasi', 'simulasiController::index');
 $routes->get('/get-data', 'simulasiController::getData');
 $routes->get('/get-matakuliah', 'simulasiController::getSemester');
 $routes->get('/get-konsentrasi', 'simulasiController::getKonsentrasi');
+$routes->get('/get-prodi', 'simulasiController::getProdi');
 
 
 

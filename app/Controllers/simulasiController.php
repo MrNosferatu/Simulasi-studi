@@ -23,6 +23,15 @@ class simulasiController extends BaseController
         $data = $prodiModel->where('kode_fakultas', $kode_fakultas)->findAll();
         return $this->response->setJSON($data);
     }
+    public function getProdi()
+    {
+        $kode_prodi = $this->request->getGet('kode_prodi');
+
+        // Query the database to get the data
+        $prodiModel = new \App\Models\ProdiModel();
+        $data = $prodiModel->where('kode_prodi', $kode_prodi)->findAll();
+        return $this->response->setJSON($data);
+    }
     public function getSemester()
     {
         $kode_prodi = $this->request->getGet('kode_prodi');
