@@ -131,6 +131,7 @@ class simDataController extends BaseController
 
     public function konsentrasi_store()
     {
+        $id = $this->request->getPost('id');
         $data = array(
             'nama' => $this->request->getPost('nama'),
             'sks_minimal' => $this->request->getPost('sks_minimal')

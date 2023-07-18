@@ -22,40 +22,48 @@
 
 <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
 <script src="https://cdn.canvasjs.com/jquery.canvasjs.min.js"></script>
-
-
-<div class="container p-5">
-    <h1>Simulasi Studi</h1>
-    <div class="row">
-        <div class="col">
-            <form id="form">
-                <div class="mb-3">
-                    <label for="kode_fakultas" class="form-label">Pilih Fakultas :</label>
-                    <select id="kode_fakultas" name="kode_fakultas" class="form-select">
-                        <option value="">-- Select an option --</option>
-                        <?php foreach ($fakultas as $row): ?>
-                            <option value="<?= $row['kode_fakultas'] ?>"><?= $row['nama'] ?></option>
-                        <?php endforeach; ?>
-                    </select>
+<div class="d-flex h-100">
+    <div class="flex-grow-1 overflow-auto">
+        <div class="container p-5 overflow-auto">
+            <h1>Simulasi Studi</h1>
+            <div class="row">
+                <div class="col">
+                    <form id="form">
+                        <div class="mb-3">
+                            <label for="kode_fakultas" class="form-label">Pilih Fakultas :</label>
+                            <select id="kode_fakultas" name="kode_fakultas" class="form-select">
+                                <option value="">Pilih Fakultas</option>
+                                <?php foreach ($fakultas as $row): ?>
+                                    <option value="<?= $row['kode_fakultas'] ?>"><?= $row['nama'] ?></option>
+                                <?php endforeach; ?>
+                            </select>
+                        </div>
+                        <div id="prodiField"></div>
+                        <div id="matakuliahField"></div>
+                        <div id="sksField" class="mb-3"></div>
+                        <div id="gradesField" class="mb-3"></div>
+                        <div id="ipkField" class="mb-3"></div>
+                        <div class="d-grid gap-2" id="submit_btn">
+                            <!-- <button type="submit" class="btn btn-ungu-medium btn-lg id">Submit</button> -->
+                        </div>
+                    </form>
                 </div>
-                <div id="prodiField"></div>
-                <div id="matakuliahField"></div>
-                <div id="sksField" class="mb-3">Total SKS: 0</div>
-                <div id="gradesField" class="mb-3"></div>
-                <div id="ipkField" class="mb-3"></div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <canvas id="sksChartContainer"></canvas>
-        </div>
-        <div class="col">
-            <canvas id="ipkChartContainer"></canvas>
+            </div>
+            <div class="row">
+                <div class="col col-4">
+                    <canvas id="sksChartContainer"></canvas>
+                </div>
+                <div class="col col-4">
+                    <canvas id="nilaiDChartContainer"></canvas>
+                </div>
+                <div class="col col-4">
+                    <canvas id="ipkChartContainer"></canvas>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+<?php include 'layouts/footer.php'; ?>
 
 <script>
     window.addEventListener('beforeunload', event => {
@@ -120,4 +128,3 @@
         }
     });
 </script>
-<?php include 'layouts/footer.php'; ?>

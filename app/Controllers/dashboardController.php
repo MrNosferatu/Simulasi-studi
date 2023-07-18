@@ -9,8 +9,13 @@ class dashboardController extends BaseController
 {
     function index()
     {
-        $data['title'] = 'Dashboard';
-        return view('admin/dashboard', $data);
+        $session = session();
+        if ($session->get('logged_in')) {
+            $data['title'] = 'Dashboard';
+            return redirect()->to('/dashboard/fakultas');
+        }else{
+            return redirect()->to('/login');
+        }
     }
     function fakultas()
     {
@@ -37,4 +42,23 @@ class dashboardController extends BaseController
         $data['title'] = 'Matakuliah';
         return view('admin/perkuliahan/matakuliah', $data);
     }
+    function konsentrasi()
+    {
+        $prodiModel = new \App\Models\ProdiModel();
+        $data['prodi'] = $prodiModel->findAll();
+        $matakuliahModel = new \App\Models\konsentrasiModel();
+        $data['konsentrasi'] = $matakuliahModel->findAll();
+        $data['title'] = 'Konsentrasi';
+        return view('admin/perkuliahan/konsentrasi', $data);
+    }
+    function konsentrasi_matakuliah()
+    {
+        $matakuliahModel = new \App\Models\matakuliahModel();
+        $data['matakuliah'] = $matakuliahModel->findAll();
+        $matakuliahModel = new \App\Models\konsentrasiModel();
+        $data['konsentrasi'] = $matakuliahModel->findAll();
+        $data['title'] = 'Konsentrasi';
+        return view('admin/perkuliahan/konsentrasiMatakuliah', $data);
+    }
+
 }

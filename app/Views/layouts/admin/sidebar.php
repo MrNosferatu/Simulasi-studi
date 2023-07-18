@@ -1,23 +1,23 @@
-<div class="d-flex">
+<div class="d-flex h-100">
     <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark h-100" style="width: 280px;">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
             <svg class="bi me-2" width="40" height="32">
                 <use xlink:href="#bootstrap"></use>
             </svg>
-            <span class="fs-4">Sidebar</span>
+            <span class="fs-4">Dashboard</span>
         </a>
         <hr>
         <ul class="nav nav-pills flex-column mb-auto">
             <li class="nav-item">
-                <a href="#" class="nav-link active" aria-current="page">
+                <a href="<?= base_url('dashboard/fakultas')?>" class="nav-link <?= (current_url() == base_url('dashboard/fakultas')) ? 'active' : '' ?> text-white" aria-current="page">
                     <svg class="bi me-2" width="16" height="16">
                         <use xlink:href="#home"></use>
                     </svg>
-                    Dashboard
+                    Fakultas
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="#">
+                <a class="nav-link text-white <?= (current_url() == base_url('dashboard/prodi')) ? 'active' : '' ?>" href="<?= base_url('dashboard/prodi')?>">
                     <svg class="bi me-2" width="16" height="16">
                         <use xlink:href="#table"></use>
                     </svg>
@@ -25,23 +25,31 @@
                 </a>
             </li>
             <li>
-                <a href="#" class="nav-link text-white">
+                <a href="<?= base_url('dashboard/matakuliah')?>" class="nav-link <?= (current_url() == base_url('dashboard/matakuliah')) ? 'active' : '' ?> text-white">
                     <svg class="bi me-2" width="16" height="16">
                         <use xlink:href="#grid"></use>
                     </svg>
                     Matakuliah
                 </a>
             </li>
-            <li>
-                <a href="#" class="nav-link text-white">
+            <!-- <li>
+                <a href="<?= base_url('dashboard/konsentrasi')?>" class="nav-link text-white <?= (current_url() == base_url('dashboard/konsentrasi')) ? 'active' : '' ?>">
                     <svg class="bi me-2" width="16" height="16">
                         <use xlink:href="#people-circle"></use>
                     </svg>
-                    Article
+                    Konsentrasi
+                </a>
+            </li>
+            <li>
+                <a href="<?= base_url('dashboard/konsentrasi_matakuliah')?>" class="nav-link text-white <?= (current_url() == base_url('dashboard/konsentrasi_matakuliah')) ? 'active' : '' ?>">
+                    <svg class="bi me-2" width="16" height="16">
+                        <use xlink:href="#people-circle"></use>
+                    </svg>
+                    Konsentrasi Matakuliah
                 </a>
             </li>
         </ul>
-        <hr>
+        <hr> -->
         <!-- <div class="dropdown">
         <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
             <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
@@ -58,3 +66,4 @@
         </ul>
     </div> -->
     </div>
+</div>

@@ -35,6 +35,8 @@ $routes->get('/dashboard', 'dashboardController::index');
 $routes->get('/dashboard/fakultas', 'dashboardController::fakultas');
 $routes->get('/dashboard/prodi', 'dashboardController::prodi');
 $routes->get('/dashboard/matakuliah', 'dashboardController::matakuliah');
+$routes->get('/dashboard/konsentrasi', 'dashboardController::konsentrasi');
+$routes->get('/dashboard/konsentrasi_matakuliah', 'dashboardController::konsentrasi_matakuliah');
 $routes->post('/login', 'AdminLogin::authentication');
 $routes->get('/signup', 'AdminLogin::signup');
 $routes->put('/signup', 'AdminLogin::register');
@@ -49,12 +51,17 @@ $routes->post('/data/matakuliah/store', 'simDataController::matakuliah_store');
 $routes->post('/data/matakuliah/update', 'simDataController::matakuliah_update');
 $routes->post('/data/matakuliah/delete', 'simDataController::matakuliah_delete');
 $routes->post('/data/konsentrasi/store', 'simDataController::konsentrasi_store');
+$routes->post('/data/konsentrasi/update', 'simDataController::konsentrasi_update');
+$routes->post('/data/konsentrasi/delete', 'simDataController::konsentrasi_delete');
 $routes->post('/data/konsentrasi_matakuliah/store', 'simDataController::konsentrasi_matakuliah_store');
+$routes->post('/data/konsentrasi_matakuliah/update', 'simDataController::konsentrasi_matakuliah_update');
+$routes->post('/data/konsentrasi_matakuliah/delete', 'simDataController::konsentrasi_matakuliah_delete');
 $routes->get('/simulasi', 'simulasiController::index');
 $routes->get('/get-data', 'simulasiController::getData');
 $routes->get('/get-matakuliah', 'simulasiController::getSemester');
 $routes->get('/get-konsentrasi', 'simulasiController::getKonsentrasi');
 $routes->get('/get-prodi', 'simulasiController::getProdi');
+$routes->get('/get-prodi-konsentrasi', 'simulasiController::getProdiKonsentrasi');
 
 
 

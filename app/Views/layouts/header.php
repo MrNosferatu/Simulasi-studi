@@ -28,6 +28,13 @@
         .btn-ungu {
             background-color: #763568;
         }
+        .btn-ungu-medium {
+            background-color: #9B59B6;
+        }
+
+        .btn-ungu-light {
+            background-color: #BE90D4;
+        }
 
         html,
         body {
@@ -50,7 +57,8 @@
     </style>
 </head>
 
-<body>
+<body class="h-100 p-0 m-0">
+
 
 
 
