@@ -1,0 +1,230 @@
+CRITICAL - 2023-07-14 01:26:59 --> include(D:\Simulasi-studi\app\views/layouts/navbar.php): Failed to open stream: No such file or directory
+in APPPATH\Views\simulasi.php on line 2.
+ 1 APPPATH\Views\simulasi.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\Simulasi-studi\\app\\views/layouts/navbar.php): Failed to open stream: No such file or directory', 'D:\\Simulasi-studi\\app\\Views\\simulasi.php', 2)
+ 2 APPPATH\Views\simulasi.php(2): include()
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\simulasi.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('simulasi', [], true)
+ 6 APPPATH\Controllers\simulasiController.php(15): view('simulasi', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simulasiController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-14 06:53:12 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'study_sim', 3306, '', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simulasiController.php(12): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simulasiController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Simulasi-studi\app\Controllers\simulasiController.php(12): CodeIgniter\BaseModel->findAll()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simulasiController->index()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#11 {main}
+CRITICAL - 2023-07-14 06:53:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\simulasiController.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simulasiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-14 06:53:16 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'study_sim', 3306, '', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simulasiController.php(12): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simulasiController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Simulasi-studi\app\Controllers\simulasiController.php(12): CodeIgniter\BaseModel->findAll()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simulasiController->index()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#11 {main}
+CRITICAL - 2023-07-14 06:53:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\simulasiController.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simulasiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-14 09:12:14 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`study_sim`.`matakuliah`, CONSTRAINT `matakuliah_ibfk_1` FOREIGN KEY (`kode_prodi`) REFERENCES `prodi` (`kode_prodi`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `matakul...', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `matakul...')
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `matakul...')
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `matakul...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\Simulasi-studi\app\Controllers\simDataController.php(118): CodeIgniter\Model->update('62', Array)
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->matakuliah_update()
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#13 {main}
+CRITICAL - 2023-07-14 09:12:14 --> Cannot add or update a child row: a foreign key constraint fails (`study_sim`.`matakuliah`, CONSTRAINT `matakuliah_ibfk_1` FOREIGN KEY (`kode_prodi`) REFERENCES `prodi` (`kode_prodi`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `matakuliah` SET `kode_prodi` = NULL, `nama` = \'Testa\', `sks` = \'20\', `sifat` = \'1\', `nilai_minimal` = \'E\', `semester` = \'1\'
+WHERE `matakuliah`.`kode_matakuliah` IN (\'62\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `matakuliah` SET `kode_prodi` = NULL, `nama` = \'Testa\', `sks` = \'20\', `sifat` = \'1\', `nilai_minimal` = \'E\', `semester` = \'1\'
+WHERE `matakuliah`.`kode_matakuliah` IN (\'62\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `matakuliah` SET `kode_prodi` = NULL, `nama` = \'Testa\', `sks` = \'20\', `sifat` = \'1\', `nilai_minimal` = \'E\', `semester` = \'1\'
+WHERE `matakuliah`.`kode_matakuliah` IN (\'62\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `matakuliah` SET `kode_prodi` = :kode_prodi:, `nama` = :nama:, `sks` = :sks:, `sifat` = :sifat:, `nilai_minimal` = :nilai_minimal:, `semester` = :semester:
+WHERE `matakuliah`.`kode_matakuliah` IN :matakuliah.kode_matakuliah:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\simDataController.php(118): CodeIgniter\Model->update('62', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->matakuliah_update()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-14 09:12:15 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`study_sim`.`matakuliah`, CONSTRAINT `matakuliah_ibfk_1` FOREIGN KEY (`kode_prodi`) REFERENCES `prodi` (`kode_prodi`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `matakul...', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `matakul...')
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `matakul...')
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `matakul...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\Simulasi-studi\app\Controllers\simDataController.php(118): CodeIgniter\Model->update('62', Array)
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->matakuliah_update()
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#13 {main}
+CRITICAL - 2023-07-14 09:12:15 --> Cannot add or update a child row: a foreign key constraint fails (`study_sim`.`matakuliah`, CONSTRAINT `matakuliah_ibfk_1` FOREIGN KEY (`kode_prodi`) REFERENCES `prodi` (`kode_prodi`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `matakuliah` SET `kode_prodi` = NULL, `nama` = \'Testa\', `sks` = \'20\', `sifat` = \'1\', `nilai_minimal` = \'E\', `semester` = \'1\'
+WHERE `matakuliah`.`kode_matakuliah` IN (\'62\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `matakuliah` SET `kode_prodi` = NULL, `nama` = \'Testa\', `sks` = \'20\', `sifat` = \'1\', `nilai_minimal` = \'E\', `semester` = \'1\'
+WHERE `matakuliah`.`kode_matakuliah` IN (\'62\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `matakuliah` SET `kode_prodi` = NULL, `nama` = \'Testa\', `sks` = \'20\', `sifat` = \'1\', `nilai_minimal` = \'E\', `semester` = \'1\'
+WHERE `matakuliah`.`kode_matakuliah` IN (\'62\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `matakuliah` SET `kode_prodi` = :kode_prodi:, `nama` = :nama:, `sks` = :sks:, `sifat` = :sifat:, `nilai_minimal` = :nilai_minimal:, `semester` = :semester:
+WHERE `matakuliah`.`kode_matakuliah` IN :matakuliah.kode_matakuliah:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\simDataController.php(118): CodeIgniter\Model->update('62', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->matakuliah_update()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-14 09:12:24 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`study_sim`.`matakuliah`, CONSTRAINT `matakuliah_ibfk_1` FOREIGN KEY (`kode_prodi`) REFERENCES `prodi` (`kode_prodi`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `matakul...', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `matakul...')
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `matakul...')
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `matakul...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\Simulasi-studi\app\Controllers\simDataController.php(118): CodeIgniter\Model->update('62', Array)
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->matakuliah_update()
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#13 {main}
+CRITICAL - 2023-07-14 09:12:24 --> Cannot add or update a child row: a foreign key constraint fails (`study_sim`.`matakuliah`, CONSTRAINT `matakuliah_ibfk_1` FOREIGN KEY (`kode_prodi`) REFERENCES `prodi` (`kode_prodi`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `matakuliah` SET `kode_prodi` = NULL, `nama` = \'Testa\', `sks` = \'20\', `sifat` = \'1\', `nilai_minimal` = \'E\', `semester` = \'1\'
+WHERE `matakuliah`.`kode_matakuliah` IN (\'62\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `matakuliah` SET `kode_prodi` = NULL, `nama` = \'Testa\', `sks` = \'20\', `sifat` = \'1\', `nilai_minimal` = \'E\', `semester` = \'1\'
+WHERE `matakuliah`.`kode_matakuliah` IN (\'62\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `matakuliah` SET `kode_prodi` = NULL, `nama` = \'Testa\', `sks` = \'20\', `sifat` = \'1\', `nilai_minimal` = \'E\', `semester` = \'1\'
+WHERE `matakuliah`.`kode_matakuliah` IN (\'62\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `matakuliah` SET `kode_prodi` = :kode_prodi:, `nama` = :nama:, `sks` = :sks:, `sifat` = :sifat:, `nilai_minimal` = :nilai_minimal:, `semester` = :semester:
+WHERE `matakuliah`.`kode_matakuliah` IN :matakuliah.kode_matakuliah:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\simDataController.php(118): CodeIgniter\Model->update('62', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->matakuliah_update()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-14 13:14:20 --> Undefined variable $content
+in APPPATH\Views\admin\artikel\write.php on line 18.
+ 1 APPPATH\Views\admin\artikel\write.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $content', 'D:\\Simulasi-studi\\app\\Views\\admin\\artikel\\write.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\artikel\\write.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/artikel/write', [], true)
+ 5 APPPATH\Controllers\dashboardController.php(48): view('admin/artikel/write', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\dashboardController->write_artikel()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-14 13:14:21 --> Undefined variable $content
+in APPPATH\Views\admin\artikel\write.php on line 18.
+ 1 APPPATH\Views\admin\artikel\write.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $content', 'D:\\Simulasi-studi\\app\\Views\\admin\\artikel\\write.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\artikel\\write.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/artikel/write', [], true)
+ 5 APPPATH\Controllers\dashboardController.php(48): view('admin/artikel/write', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\dashboardController->write_artikel()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')

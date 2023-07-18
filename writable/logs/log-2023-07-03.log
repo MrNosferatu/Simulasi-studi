@@ -1,0 +1,1335 @@
+CRITICAL - 2023-07-03 00:10:22 --> Undefined array key "kode"
+in APPPATH\Views\admin\data\form.php on line 36.
+ 1 APPPATH\Views\admin\data\form.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 5 APPPATH\Controllers\simDataController.php(17): view('admin/data/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 00:10:23 --> Undefined array key "kode"
+in APPPATH\Views\admin\data\form.php on line 36.
+ 1 APPPATH\Views\admin\data\form.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 5 APPPATH\Controllers\simDataController.php(17): view('admin/data/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 00:10:31 --> Undefined array key "kode"
+in APPPATH\Views\admin\data\form.php on line 36.
+ 1 APPPATH\Views\admin\data\form.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 5 APPPATH\Controllers\simDataController.php(17): view('admin/data/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 00:11:27 --> Undefined array key "nama"
+in APPPATH\Views\admin\data\form.php on line 36.
+ 1 APPPATH\Views\admin\data\form.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 5 APPPATH\Controllers\simDataController.php(17): view('admin/data/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 00:11:30 --> Undefined array key "nama"
+in APPPATH\Views\admin\data\form.php on line 36.
+ 1 APPPATH\Views\admin\data\form.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 5 APPPATH\Controllers\simDataController.php(17): view('admin/data/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 00:12:57 --> Array to string conversion
+in APPPATH\Views\admin\data\form.php on line 35.
+ 1 APPPATH\Views\admin\data\form.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 5 APPPATH\Controllers\simDataController.php(17): view('admin/data/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 00:12:59 --> Array to string conversion
+in APPPATH\Views\admin\data\form.php on line 35.
+ 1 APPPATH\Views\admin\data\form.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 5 APPPATH\Controllers\simDataController.php(17): view('admin/data/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 00:14:00 --> Undefined array key "nama"
+in APPPATH\Views\admin\data\form.php on line 36.
+ 1 APPPATH\Views\admin\data\form.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 5 APPPATH\Controllers\simDataController.php(17): view('admin/data/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 00:14:02 --> Undefined array key "nama"
+in APPPATH\Views\admin\data\form.php on line 36.
+ 1 APPPATH\Views\admin\data\form.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 5 APPPATH\Controllers\simDataController.php(17): view('admin/data/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 00:14:03 --> Undefined array key "nama"
+in APPPATH\Views\admin\data\form.php on line 36.
+ 1 APPPATH\Views\admin\data\form.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 5 APPPATH\Controllers\simDataController.php(17): view('admin/data/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 00:16:36 --> Undefined array key "nama"
+in APPPATH\Views\admin\data\form.php on line 36.
+ 1 APPPATH\Views\admin\data\form.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 5 APPPATH\Controllers\simDataController.php(21): view('admin/data/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 00:25:59 --> Undefined array key "Nama"
+in APPPATH\Views\admin\data\form.php on line 48.
+ 1 APPPATH\Views\admin\data\form.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nama"', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 5 APPPATH\Controllers\simDataController.php(24): view('admin/data/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 00:26:05 --> Undefined array key "Nama"
+in APPPATH\Views\admin\data\form.php on line 48.
+ 1 APPPATH\Views\admin\data\form.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nama"', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 5 APPPATH\Controllers\simDataController.php(24): view('admin/data/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 00:26:06 --> Undefined array key "Nama"
+in APPPATH\Views\admin\data\form.php on line 48.
+ 1 APPPATH\Views\admin\data\form.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nama"', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 5 APPPATH\Controllers\simDataController.php(24): view('admin/data/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-03 03:54:41 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'study_sim', 3306, '', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simDataController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Simulasi-studi\app\Controllers\simDataController.php(19): CodeIgniter\BaseModel->findAll()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#11 {main}
+CRITICAL - 2023-07-03 03:54:41 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\simDataController.php(19): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-03 03:55:15 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'study_sim', 3306, '', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simDataController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Simulasi-studi\app\Controllers\simDataController.php(19): CodeIgniter\BaseModel->findAll()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#11 {main}
+CRITICAL - 2023-07-03 03:55:15 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\simDataController.php(19): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-03 03:55:22 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'study_sim', 3306, '', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simDataController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Simulasi-studi\app\Controllers\simDataController.php(19): CodeIgniter\BaseModel->findAll()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#11 {main}
+CRITICAL - 2023-07-03 03:55:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\simDataController.php(19): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-03 03:55:35 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'study_sim', 3306, '', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simDataController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Simulasi-studi\app\Controllers\simDataController.php(19): CodeIgniter\BaseModel->findAll()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#11 {main}
+CRITICAL - 2023-07-03 03:55:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\simDataController.php(19): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-03 03:56:01 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'study_sim', 3306, '', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simDataController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Simulasi-studi\app\Controllers\simDataController.php(19): CodeIgniter\BaseModel->findAll()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#11 {main}
+CRITICAL - 2023-07-03 03:56:01 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\simDataController.php(19): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-03 03:56:11 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'study_sim', 3306, '', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\Simulasi-studi\app\Controllers\AdminLogin.php(23): CodeIgniter\BaseModel->first()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\AdminLogin->authentication()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminLogin))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\Simulasi-studi\app\Controllers\AdminLogin.php(23): CodeIgniter\BaseModel->first()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\AdminLogin->authentication()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminLogin))
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#11 {main}
+CRITICAL - 2023-07-03 03:56:11 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AdminLogin.php(23): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminLogin->authentication()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-03 04:15:18 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'study_sim', 3306, '', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#11 {main}
+CRITICAL - 2023-07-03 04:15:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-03 04:15:24 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'study_sim', 3306, '', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#11 {main}
+CRITICAL - 2023-07-03 04:15:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-03 04:15:29 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'study_sim', 3306, '', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#11 {main}
+CRITICAL - 2023-07-03 04:15:29 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-03 04:15:33 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'study_sim', 3306, '', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#11 {main}
+CRITICAL - 2023-07-03 04:15:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-03 04:15:37 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'study_sim', 3306, '', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#11 {main}
+CRITICAL - 2023-07-03 04:15:37 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-03 04:15:41 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'study_sim', 3306, '', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#11 {main}
+CRITICAL - 2023-07-03 04:15:41 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-03 04:16:09 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'study_sim', 3306, '', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#11 {main}
+CRITICAL - 2023-07-03 04:16:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-03 04:16:42 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'study_sim', 3306, '', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#11 {main}
+CRITICAL - 2023-07-03 04:16:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-03 04:17:09 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'study_sim', 3306, '', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#11 {main}
+CRITICAL - 2023-07-03 04:17:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-03 04:17:38 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'study_sim', 3306, '', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#11 {main}
+CRITICAL - 2023-07-03 04:17:38 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-03 04:18:10 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'study_sim', 3306, '', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#11 {main}
+CRITICAL - 2023-07-03 04:18:10 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 04:18:50 --> Undefined variable $data
+in APPPATH\Controllers\simDataController.php on line 20.
+ 1 APPPATH\Controllers\simDataController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\Simulasi-studi\\app\\Controllers\\simDataController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 04:18:51 --> Undefined variable $data
+in APPPATH\Controllers\simDataController.php on line 20.
+ 1 APPPATH\Controllers\simDataController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\Simulasi-studi\\app\\Controllers\\simDataController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 04:18:51 --> Undefined variable $data
+in APPPATH\Controllers\simDataController.php on line 20.
+ 1 APPPATH\Controllers\simDataController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\Simulasi-studi\\app\\Controllers\\simDataController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 04:18:52 --> Undefined variable $data
+in APPPATH\Controllers\simDataController.php on line 20.
+ 1 APPPATH\Controllers\simDataController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\Simulasi-studi\\app\\Controllers\\simDataController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 04:18:52 --> Undefined variable $data
+in APPPATH\Controllers\simDataController.php on line 20.
+ 1 APPPATH\Controllers\simDataController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\Simulasi-studi\\app\\Controllers\\simDataController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 04:18:52 --> Undefined variable $data
+in APPPATH\Controllers\simDataController.php on line 20.
+ 1 APPPATH\Controllers\simDataController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\Simulasi-studi\\app\\Controllers\\simDataController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-03 04:19:11 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'study_sim', 3306, '', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Simulasi-studi\app\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->index()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#11 {main}
+CRITICAL - 2023-07-03 04:19:11 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\simDataController.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:51:21 --> include(layouts/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\data\form.php on line 1.
+ 1 APPPATH\Views\admin\data\form.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(layouts/header.php): Failed to open stream: No such file or directory', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 1)
+ 2 APPPATH\Views\admin\data\form.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 6 APPPATH\Controllers\simDataController.php(20): view('admin/data/form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:51:23 --> include(layouts/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\data\form.php on line 1.
+ 1 APPPATH\Views\admin\data\form.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(layouts/header.php): Failed to open stream: No such file or directory', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 1)
+ 2 APPPATH\Views\admin\data\form.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 6 APPPATH\Controllers\simDataController.php(20): view('admin/data/form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:52:09 --> include(layouts/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\data\form.php on line 1.
+ 1 APPPATH\Views\admin\data\form.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(layouts/header.php): Failed to open stream: No such file or directory', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 1)
+ 2 APPPATH\Views\admin\data\form.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 6 APPPATH\Controllers\simDataController.php(20): view('admin/data/form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:52:10 --> include(layouts/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\data\form.php on line 1.
+ 1 APPPATH\Views\admin\data\form.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(layouts/header.php): Failed to open stream: No such file or directory', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 1)
+ 2 APPPATH\Views\admin\data\form.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 6 APPPATH\Controllers\simDataController.php(20): view('admin/data/form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:52:10 --> include(layouts/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\data\form.php on line 1.
+ 1 APPPATH\Views\admin\data\form.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(layouts/header.php): Failed to open stream: No such file or directory', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 1)
+ 2 APPPATH\Views\admin\data\form.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 6 APPPATH\Controllers\simDataController.php(20): view('admin/data/form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:52:11 --> include(layouts/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\data\form.php on line 1.
+ 1 APPPATH\Views\admin\data\form.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(layouts/header.php): Failed to open stream: No such file or directory', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 1)
+ 2 APPPATH\Views\admin\data\form.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 6 APPPATH\Controllers\simDataController.php(20): view('admin/data/form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:52:34 --> include(layouts/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\data\form.php on line 1.
+ 1 APPPATH\Views\admin\data\form.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(layouts/header.php): Failed to open stream: No such file or directory', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 1)
+ 2 APPPATH\Views\admin\data\form.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 6 APPPATH\Controllers\simDataController.php(20): view('admin/data/form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:52:35 --> include(layouts/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\data\form.php on line 1.
+ 1 APPPATH\Views\admin\data\form.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(layouts/header.php): Failed to open stream: No such file or directory', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 1)
+ 2 APPPATH\Views\admin\data\form.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 6 APPPATH\Controllers\simDataController.php(20): view('admin/data/form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:52:36 --> include(layouts/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\data\form.php on line 1.
+ 1 APPPATH\Views\admin\data\form.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(layouts/header.php): Failed to open stream: No such file or directory', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 1)
+ 2 APPPATH\Views\admin\data\form.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 6 APPPATH\Controllers\simDataController.php(20): view('admin/data/form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:52:36 --> include(layouts/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\data\form.php on line 1.
+ 1 APPPATH\Views\admin\data\form.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(layouts/header.php): Failed to open stream: No such file or directory', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 1)
+ 2 APPPATH\Views\admin\data\form.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 6 APPPATH\Controllers\simDataController.php(20): view('admin/data/form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:52:45 --> include(layouts/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\data\form.php on line 1.
+ 1 APPPATH\Views\admin\data\form.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(layouts/header.php): Failed to open stream: No such file or directory', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 1)
+ 2 APPPATH\Views\admin\data\form.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 6 APPPATH\Controllers\simDataController.php(20): view('admin/data/form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:53:08 --> include(../../layouts/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\data\form.php on line 1.
+ 1 APPPATH\Views\admin\data\form.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../../layouts/header.php): Failed to open stream: No such file or directory', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 1)
+ 2 APPPATH\Views\admin\data\form.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 6 APPPATH\Controllers\simDataController.php(20): view('admin/data/form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:53:08 --> include(../../layouts/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\data\form.php on line 1.
+ 1 APPPATH\Views\admin\data\form.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../../layouts/header.php): Failed to open stream: No such file or directory', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 1)
+ 2 APPPATH\Views\admin\data\form.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 6 APPPATH\Controllers\simDataController.php(20): view('admin/data/form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:53:09 --> include(../../layouts/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\data\form.php on line 1.
+ 1 APPPATH\Views\admin\data\form.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../../layouts/header.php): Failed to open stream: No such file or directory', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 1)
+ 2 APPPATH\Views\admin\data\form.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 6 APPPATH\Controllers\simDataController.php(20): view('admin/data/form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:53:09 --> include(../../layouts/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\data\form.php on line 1.
+ 1 APPPATH\Views\admin\data\form.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../../layouts/header.php): Failed to open stream: No such file or directory', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 1)
+ 2 APPPATH\Views\admin\data\form.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 6 APPPATH\Controllers\simDataController.php(20): view('admin/data/form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:53:10 --> include(../../layouts/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\data\form.php on line 1.
+ 1 APPPATH\Views\admin\data\form.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../../layouts/header.php): Failed to open stream: No such file or directory', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 1)
+ 2 APPPATH\Views\admin\data\form.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 6 APPPATH\Controllers\simDataController.php(20): view('admin/data/form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:53:26 --> include(../layouts/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\data\form.php on line 1.
+ 1 APPPATH\Views\admin\data\form.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../layouts/header.php): Failed to open stream: No such file or directory', 'D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php', 1)
+ 2 APPPATH\Views\admin\data\form.php(1): include()
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\data\\form.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/data/form', [], true)
+ 6 APPPATH\Controllers\simDataController.php(20): view('admin/data/form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:53:53 --> Undefined variable $title
+in APPPATH\Views\layouts\header.php on line 7.
+ 1 APPPATH\Views\layouts\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\Simulasi-studi\\app\\Views\\layouts\\header.php', 7)
+ 2 APPPATH\Views\index.php(1): include('D:\\Simulasi-studi\\app\\Views\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:55:30 --> Undefined variable $title
+in APPPATH\Views\layouts\header.php on line 7.
+ 1 APPPATH\Views\layouts\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\Simulasi-studi\\app\\Views\\layouts\\header.php', 7)
+ 2 APPPATH\Views\index.php(1): include('D:\\Simulasi-studi\\app\\Views\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(10): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:55:31 --> Undefined variable $title
+in APPPATH\Views\layouts\header.php on line 7.
+ 1 APPPATH\Views\layouts\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\Simulasi-studi\\app\\Views\\layouts\\header.php', 7)
+ 2 APPPATH\Views\index.php(1): include('D:\\Simulasi-studi\\app\\Views\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(10): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:55:32 --> Undefined variable $title
+in APPPATH\Views\layouts\header.php on line 7.
+ 1 APPPATH\Views\layouts\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\Simulasi-studi\\app\\Views\\layouts\\header.php', 7)
+ 2 APPPATH\Views\index.php(1): include('D:\\Simulasi-studi\\app\\Views\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(10): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:55:33 --> Undefined variable $title
+in APPPATH\Views\layouts\header.php on line 7.
+ 1 APPPATH\Views\layouts\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\Simulasi-studi\\app\\Views\\layouts\\header.php', 7)
+ 2 APPPATH\Views\index.php(1): include('D:\\Simulasi-studi\\app\\Views\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(10): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:55:33 --> Undefined variable $title
+in APPPATH\Views\layouts\header.php on line 7.
+ 1 APPPATH\Views\layouts\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\Simulasi-studi\\app\\Views\\layouts\\header.php', 7)
+ 2 APPPATH\Views\index.php(1): include('D:\\Simulasi-studi\\app\\Views\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(10): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:55:33 --> Undefined variable $title
+in APPPATH\Views\layouts\header.php on line 7.
+ 1 APPPATH\Views\layouts\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\Simulasi-studi\\app\\Views\\layouts\\header.php', 7)
+ 2 APPPATH\Views\index.php(1): include('D:\\Simulasi-studi\\app\\Views\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(10): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-03 22:55:34 --> Undefined variable $title
+in APPPATH\Views\layouts\header.php on line 7.
+ 1 APPPATH\Views\layouts\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\Simulasi-studi\\app\\Views\\layouts\\header.php', 7)
+ 2 APPPATH\Views\index.php(1): include('D:\\Simulasi-studi\\app\\Views\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(10): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
