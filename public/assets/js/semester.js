@@ -36,7 +36,7 @@ kode_prodi.addEventListener('change', () => {
     newSemesterField.id = 'semesterField';
     matakuliahField.appendChild(newSemesterField);
 
-    fetch(`/get-prodi?kode_prodi=${value}`)
+    fetch(`/get-matakuliah`)
       .then(response => response.json())
       .then(data => {
         const konsentrasiSemester = (data[0].semester_konsentrasi - 1);
@@ -46,12 +46,10 @@ kode_prodi.addEventListener('change', () => {
           .then(data => {
             // Group the data by semester
             const groupedData = data.reduce((acc, item) => {
-              if (item.semester <= konsentrasiSemester) { // Only include semesters 1 and 2
-                if (!acc[item.semester]) {
-                  acc[item.semester] = [];
-                }
-                acc[item.semester].push(item);
+              if (!acc[item.semester]) {
+                acc[item.semester] = [];
               }
+              acc[item.semester].push(item);
               return acc;
             }, {});
 
@@ -453,7 +451,7 @@ function resetCharts(totalSks, sksStillNeeded, SelisihNilaiD, totalSksDOrBelow, 
     }
   };
 
-  
+
   const nilaiDChartContainer = document.getElementById('nilaiDChartContainer');
   nilaiDChart = new Chart(nilaiDChartContainer, nilaiDOptions);
 

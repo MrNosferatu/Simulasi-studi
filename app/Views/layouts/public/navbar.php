@@ -19,6 +19,9 @@
                 <li class="nav-item">
                     <a class="nav-link <?= (current_url() == base_url('/simulasi')) ? 'active' : '' ?>" href="<?=base_url('/simulasi')?>">Simulasi</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link <?= (current_url() == base_url('/dashboard/konsentrasi')) ? 'active' : '' ?>" href="<?=base_url('/dashboard/konsentrasi')?>">Admin</a>
+                </li>
             </ul>
             <!-- Left links -->
         </div>

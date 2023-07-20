@@ -1,0 +1,828 @@
+CRITICAL - 2023-07-19 00:29:50 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2767.
+ 1 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\simDataController.php(173): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->matakuliah_delete()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-19 00:30:00 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2767.
+ 1 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\simDataController.php(173): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->matakuliah_delete()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-19 01:40:32 --> mysqli_sql_exception: Table 'simulasi_krs.prodi' doesn't exist in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\dashboardController.php(32): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\dashboardController->konsentrasi()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dashboardController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+CRITICAL - 2023-07-19 01:40:32 --> Table 'simulasi_krs.prodi' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `prodi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `prodi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `prodi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prodi`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\dashboardController.php(32): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\dashboardController->konsentrasi()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dashboardController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-19 01:45:11 --> Undefined array key "kode_matakuliah"
+in APPPATH\Views\admin\perkuliahan\konsentrasi.php on line 33.
+ 1 APPPATH\Views\admin\perkuliahan\konsentrasi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_matakuliah"', 'D:\\Simulasi-studi\\app\\Views\\admin\\perkuliahan\\konsentrasi.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Simulasi-studi\\app\\Views\\admin\\perkuliahan\\konsentrasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/perkuliahan/konsentrasi', [], true)
+ 5 APPPATH\Controllers\dashboardController.php(34): view('admin/perkuliahan/konsentrasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\dashboardController->konsentrasi()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-19 01:50:31 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\perkuliahan\konsentrasi.php on line 148.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/perkuliahan/konsentrasi', [], true)
+ 4 APPPATH\Controllers\dashboardController.php(34): view('admin/perkuliahan/konsentrasi', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\dashboardController->konsentrasi()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dashboardController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-19 01:52:43 --> mysqli_sql_exception: Column 'sks_minimal' cannot be null in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Simulasi-studi\app\Controllers\simDataController.php(186): CodeIgniter\Model->insert(Array)
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simDataController->konsentrasi_store()
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+#10 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#13 {main}
+CRITICAL - 2023-07-19 01:52:43 --> Column 'sks_minimal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `konsentrasi` (`nama`, `sks_minimal`) VALUES (\'a\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `konsentrasi` (`nama`, `sks_minimal`) VALUES (\'a\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `konsentrasi` (`nama`, `sks_minimal`) VALUES (\'a\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `konsentrasi` (`nama`, `sks_minimal`) VALUES (:nama:, :sks_minimal:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\simDataController.php(186): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->konsentrasi_store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+INFO - 2023-07-19 01:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-19 04:57:46 --> mysqli_sql_exception: MySQL server has gone away in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\dashboardController.php(32): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\dashboardController->konsentrasi()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dashboardController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+CRITICAL - 2023-07-19 04:57:46 --> MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `konsentrasi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `konsentrasi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `konsentrasi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `konsentrasi`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\dashboardController.php(32): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\dashboardController->konsentrasi()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dashboardController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-19 04:58:02 --> mysqli_sql_exception: Table 'simulasi_krs.fakultas' doesn't exist in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simulasiController.php(12): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simulasiController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+CRITICAL - 2023-07-19 04:58:02 --> Table 'simulasi_krs.fakultas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `fakultas`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `fakultas`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `fakultas`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\simulasiController.php(12): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simulasiController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-19 04:58:03 --> mysqli_sql_exception: Table 'simulasi_krs.fakultas' doesn't exist in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simulasiController.php(12): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simulasiController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+CRITICAL - 2023-07-19 04:58:03 --> Table 'simulasi_krs.fakultas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `fakultas`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `fakultas`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `fakultas`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\simulasiController.php(12): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simulasiController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-19 05:47:48 --> mysqli_sql_exception: Table 'simulasi_krs.fakultas' doesn't exist in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simulasiController.php(12): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simulasiController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+CRITICAL - 2023-07-19 05:47:48 --> Table 'simulasi_krs.fakultas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `fakultas`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `fakultas`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `fakultas`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\simulasiController.php(12): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simulasiController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-19 05:50:18 --> mysqli_sql_exception: Table 'simulasi_krs.fakultas' doesn't exist in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simulasiController.php(12): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simulasiController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+CRITICAL - 2023-07-19 05:50:18 --> Table 'simulasi_krs.fakultas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `fakultas`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `fakultas`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `fakultas`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\simulasiController.php(12): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simulasiController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-19 05:50:19 --> mysqli_sql_exception: Table 'simulasi_krs.fakultas' doesn't exist in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simulasiController.php(12): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simulasiController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+CRITICAL - 2023-07-19 05:50:19 --> Table 'simulasi_krs.fakultas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `fakultas`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `fakultas`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `fakultas`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\simulasiController.php(12): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simulasiController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-19 05:50:20 --> mysqli_sql_exception: Table 'simulasi_krs.fakultas' doesn't exist in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simulasiController.php(12): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simulasiController->index()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+CRITICAL - 2023-07-19 05:50:20 --> Table 'simulasi_krs.fakultas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `fakultas`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `fakultas`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `fakultas`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultas`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\simulasiController.php(12): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simulasiController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-19 06:25:46 --> mysqli_sql_exception: Unknown column 'matakuliah.kode_prodi' in 'where clause' in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `matakul...', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `matakul...')
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `matakul...')
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `matakul...', Array, false)
+#4 D:\Simulasi-studi\app\Controllers\simulasiController.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simulasiController->getSemester()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#10 {main}
+CRITICAL - 2023-07-19 06:25:46 --> Unknown column 'matakuliah.kode_prodi' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `matakuliah`.*, `konsentrasi`.`nama` as `nama_konsentrasi`
+FROM `matakuliah`
+LEFT JOIN `matakuliah_konsentrasi` ON `matakuliah_konsentrasi`.`kode_matakuliah` = `matakuliah`.`kode_matakuliah`
+LEFT JOIN `konsentrasi` ON `konsentrasi`.`kode_konsentrasi` = `matakuliah_konsentrasi`.`kode_konsentrasi`
+WHERE `matakuliah`.`kode_prodi` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `matakuliah`.*, `konsentrasi`.`nama` as `nama_konsentrasi`
+FROM `matakuliah`
+LEFT JOIN `matakuliah_konsentrasi` ON `matakuliah_konsentrasi`.`kode_matakuliah` = `matakuliah`.`kode_matakuliah`
+LEFT JOIN `konsentrasi` ON `konsentrasi`.`kode_konsentrasi` = `matakuliah_konsentrasi`.`kode_konsentrasi`
+WHERE `matakuliah`.`kode_prodi` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `matakuliah`.*, `konsentrasi`.`nama` as `nama_konsentrasi`
+FROM `matakuliah`
+LEFT JOIN `matakuliah_konsentrasi` ON `matakuliah_konsentrasi`.`kode_matakuliah` = `matakuliah`.`kode_matakuliah`
+LEFT JOIN `konsentrasi` ON `konsentrasi`.`kode_konsentrasi` = `matakuliah_konsentrasi`.`kode_konsentrasi`
+WHERE `matakuliah`.`kode_prodi` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `matakuliah`.*, `konsentrasi`.`nama` as `nama_konsentrasi`
+FROM `matakuliah`
+LEFT JOIN `matakuliah_konsentrasi` ON `matakuliah_konsentrasi`.`kode_matakuliah` = `matakuliah`.`kode_matakuliah`
+LEFT JOIN `konsentrasi` ON `konsentrasi`.`kode_konsentrasi` = `matakuliah_konsentrasi`.`kode_konsentrasi`
+WHERE `matakuliah`.`kode_prodi` IS NULL', [], false)
+ 5 APPPATH\Controllers\simulasiController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simulasiController->getSemester()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-19 06:40:50 --> mysqli_sql_exception: Unknown column 'matakuliah.kode_prodi' in 'where clause' in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `matakul...', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `matakul...')
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `matakul...')
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `matakul...', Array, false)
+#4 D:\Simulasi-studi\app\Controllers\simulasiController.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simulasiController->getKonsentrasi()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#10 {main}
+CRITICAL - 2023-07-19 06:40:50 --> Unknown column 'matakuliah.kode_prodi' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `matakuliah`.*, `konsentrasi`.`nama` as `nama_konsentrasi`
+FROM `matakuliah`
+LEFT JOIN `matakuliah_konsentrasi` ON `matakuliah_konsentrasi`.`kode_matakuliah` = `matakuliah`.`kode_matakuliah`
+LEFT JOIN `konsentrasi` ON `konsentrasi`.`kode_konsentrasi` = `matakuliah_konsentrasi`.`kode_konsentrasi`
+WHERE `matakuliah`.`kode_prodi` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `matakuliah`.*, `konsentrasi`.`nama` as `nama_konsentrasi`
+FROM `matakuliah`
+LEFT JOIN `matakuliah_konsentrasi` ON `matakuliah_konsentrasi`.`kode_matakuliah` = `matakuliah`.`kode_matakuliah`
+LEFT JOIN `konsentrasi` ON `konsentrasi`.`kode_konsentrasi` = `matakuliah_konsentrasi`.`kode_konsentrasi`
+WHERE `matakuliah`.`kode_prodi` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `matakuliah`.*, `konsentrasi`.`nama` as `nama_konsentrasi`
+FROM `matakuliah`
+LEFT JOIN `matakuliah_konsentrasi` ON `matakuliah_konsentrasi`.`kode_matakuliah` = `matakuliah`.`kode_matakuliah`
+LEFT JOIN `konsentrasi` ON `konsentrasi`.`kode_konsentrasi` = `matakuliah_konsentrasi`.`kode_konsentrasi`
+WHERE `matakuliah`.`kode_prodi` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `matakuliah`.*, `konsentrasi`.`nama` as `nama_konsentrasi`
+FROM `matakuliah`
+LEFT JOIN `matakuliah_konsentrasi` ON `matakuliah_konsentrasi`.`kode_matakuliah` = `matakuliah`.`kode_matakuliah`
+LEFT JOIN `konsentrasi` ON `konsentrasi`.`kode_konsentrasi` = `matakuliah_konsentrasi`.`kode_konsentrasi`
+WHERE `matakuliah`.`kode_prodi` IS NULL', [], false)
+ 5 APPPATH\Controllers\simulasiController.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simulasiController->getKonsentrasi()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-19 06:40:50 --> mysqli_sql_exception: Unknown column 'matakuliah.kode_prodi' in 'where clause' in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `matakul...', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `matakul...')
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `matakul...')
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `matakul...', Array, false)
+#4 D:\Simulasi-studi\app\Controllers\simulasiController.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simulasiController->getKonsentrasi()
+#6 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#10 {main}
+CRITICAL - 2023-07-19 06:40:50 --> Unknown column 'matakuliah.kode_prodi' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `matakuliah`.*, `konsentrasi`.`nama` as `nama_konsentrasi`
+FROM `matakuliah`
+LEFT JOIN `matakuliah_konsentrasi` ON `matakuliah_konsentrasi`.`kode_matakuliah` = `matakuliah`.`kode_matakuliah`
+LEFT JOIN `konsentrasi` ON `konsentrasi`.`kode_konsentrasi` = `matakuliah_konsentrasi`.`kode_konsentrasi`
+WHERE `matakuliah`.`kode_prodi` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `matakuliah`.*, `konsentrasi`.`nama` as `nama_konsentrasi`
+FROM `matakuliah`
+LEFT JOIN `matakuliah_konsentrasi` ON `matakuliah_konsentrasi`.`kode_matakuliah` = `matakuliah`.`kode_matakuliah`
+LEFT JOIN `konsentrasi` ON `konsentrasi`.`kode_konsentrasi` = `matakuliah_konsentrasi`.`kode_konsentrasi`
+WHERE `matakuliah`.`kode_prodi` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `matakuliah`.*, `konsentrasi`.`nama` as `nama_konsentrasi`
+FROM `matakuliah`
+LEFT JOIN `matakuliah_konsentrasi` ON `matakuliah_konsentrasi`.`kode_matakuliah` = `matakuliah`.`kode_matakuliah`
+LEFT JOIN `konsentrasi` ON `konsentrasi`.`kode_konsentrasi` = `matakuliah_konsentrasi`.`kode_konsentrasi`
+WHERE `matakuliah`.`kode_prodi` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `matakuliah`.*, `konsentrasi`.`nama` as `nama_konsentrasi`
+FROM `matakuliah`
+LEFT JOIN `matakuliah_konsentrasi` ON `matakuliah_konsentrasi`.`kode_matakuliah` = `matakuliah`.`kode_matakuliah`
+LEFT JOIN `konsentrasi` ON `konsentrasi`.`kode_konsentrasi` = `matakuliah_konsentrasi`.`kode_konsentrasi`
+WHERE `matakuliah`.`kode_prodi` IS NULL', [], false)
+ 5 APPPATH\Controllers\simulasiController.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simulasiController->getKonsentrasi()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-19 07:17:11 --> mysqli_sql_exception: Table 'simulasi_krs.konsentrasi_matakuliah' doesn't exist in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simulasiController.php(39): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simulasiController->getSemester()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+CRITICAL - 2023-07-19 07:17:11 --> Table 'simulasi_krs.konsentrasi_matakuliah' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `matakuliah`
+JOIN `konsentrasi_matakuliah` ON `matakuliah`.`kode_matakuliah` = `konsentrasi_matakuliah`.`kode_matakuliah`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `matakuliah`
+JOIN `konsentrasi_matakuliah` ON `matakuliah`.`kode_matakuliah` = `konsentrasi_matakuliah`.`kode_matakuliah`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `matakuliah`
+JOIN `konsentrasi_matakuliah` ON `matakuliah`.`kode_matakuliah` = `konsentrasi_matakuliah`.`kode_matakuliah`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `matakuliah`
+JOIN `konsentrasi_matakuliah` ON `matakuliah`.`kode_matakuliah` = `konsentrasi_matakuliah`.`kode_matakuliah`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\simulasiController.php(39): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simulasiController->getSemester()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+ERROR - 2023-07-19 07:17:12 --> mysqli_sql_exception: Table 'simulasi_krs.konsentrasi_matakuliah' doesn't exist in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\simulasiController.php(39): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\simulasiController->getSemester()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+CRITICAL - 2023-07-19 07:17:12 --> Table 'simulasi_krs.konsentrasi_matakuliah' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `matakuliah`
+JOIN `konsentrasi_matakuliah` ON `matakuliah`.`kode_matakuliah` = `konsentrasi_matakuliah`.`kode_matakuliah`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `matakuliah`
+JOIN `konsentrasi_matakuliah` ON `matakuliah`.`kode_matakuliah` = `konsentrasi_matakuliah`.`kode_matakuliah`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `matakuliah`
+JOIN `konsentrasi_matakuliah` ON `matakuliah`.`kode_matakuliah` = `konsentrasi_matakuliah`.`kode_matakuliah`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `matakuliah`
+JOIN `konsentrasi_matakuliah` ON `matakuliah`.`kode_matakuliah` = `konsentrasi_matakuliah`.`kode_matakuliah`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\simulasiController.php(39): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simulasiController->getSemester()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simulasiController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+INFO - 2023-07-19 09:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 09:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 09:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 09:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 09:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 09:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 09:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 10:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-19 11:12:58 --> mysqli_sql_exception: Table 'simulasi_krs.konsentrasi_matakuliah' doesn't exist in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `matakul...', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `matakul...')
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `matakul...')
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `matakul...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\dashboardController.php(81): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\dashboardController->matakuliah()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dashboardController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+CRITICAL - 2023-07-19 11:12:58 --> Table 'simulasi_krs.konsentrasi_matakuliah' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `matakuliah`.*, `konsentrasi`.`nama_konsentrasi`
+FROM `matakuliah`
+LEFT JOIN `konsentrasi_matakuliah` ON `konsentrasi_matakuliah`.`kode_matakuliah` = `matakuliah`.`kode_matakuliah`
+LEFT JOIN `konsentrasi` ON `konsentrasi`.`kode_konsentrasi` = `konsentrasi_matakuliah`.`kode_konsentrasi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `matakuliah`.*, `konsentrasi`.`nama_konsentrasi`
+FROM `matakuliah`
+LEFT JOIN `konsentrasi_matakuliah` ON `konsentrasi_matakuliah`.`kode_matakuliah` = `matakuliah`.`kode_matakuliah`
+LEFT JOIN `konsentrasi` ON `konsentrasi`.`kode_konsentrasi` = `konsentrasi_matakuliah`.`kode_konsentrasi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `matakuliah`.*, `konsentrasi`.`nama_konsentrasi`
+FROM `matakuliah`
+LEFT JOIN `konsentrasi_matakuliah` ON `konsentrasi_matakuliah`.`kode_matakuliah` = `matakuliah`.`kode_matakuliah`
+LEFT JOIN `konsentrasi` ON `konsentrasi`.`kode_konsentrasi` = `konsentrasi_matakuliah`.`kode_konsentrasi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `matakuliah`.*, `konsentrasi`.`nama_konsentrasi`
+FROM `matakuliah`
+LEFT JOIN `konsentrasi_matakuliah` ON `konsentrasi_matakuliah`.`kode_matakuliah` = `matakuliah`.`kode_matakuliah`
+LEFT JOIN `konsentrasi` ON `konsentrasi`.`kode_konsentrasi` = `konsentrasi_matakuliah`.`kode_konsentrasi`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\dashboardController.php(81): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\dashboardController->matakuliah()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dashboardController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+INFO - 2023-07-19 11:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-19 11:13:18 --> mysqli_sql_exception: Unknown column 'konsentrasi.nama_konsentrasi' in 'field list' in D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `matakul...', 0)
+#1 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `matakul...')
+#2 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `matakul...')
+#3 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `matakul...', Array, false)
+#4 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Simulasi-studi\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Simulasi-studi\app\Controllers\dashboardController.php(81): CodeIgniter\BaseModel->findAll()
+#7 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\dashboardController->matakuliah()
+#8 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dashboardController))
+#9 D:\Simulasi-studi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Simulasi-studi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Simulasi-studi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-stu...')
+#12 {main}
+CRITICAL - 2023-07-19 11:13:18 --> Unknown column 'konsentrasi.nama_konsentrasi' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `matakuliah`.*, `konsentrasi`.`nama_konsentrasi`
+FROM `matakuliah`
+LEFT JOIN `matakuliah_konsentrasi` ON `matakuliah_konsentrasi`.`kode_matakuliah` = `matakuliah`.`kode_matakuliah`
+LEFT JOIN `konsentrasi` ON `konsentrasi`.`kode_konsentrasi` = `matakuliah_konsentrasi`.`kode_konsentrasi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `matakuliah`.*, `konsentrasi`.`nama_konsentrasi`
+FROM `matakuliah`
+LEFT JOIN `matakuliah_konsentrasi` ON `matakuliah_konsentrasi`.`kode_matakuliah` = `matakuliah`.`kode_matakuliah`
+LEFT JOIN `konsentrasi` ON `konsentrasi`.`kode_konsentrasi` = `matakuliah_konsentrasi`.`kode_konsentrasi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `matakuliah`.*, `konsentrasi`.`nama_konsentrasi`
+FROM `matakuliah`
+LEFT JOIN `matakuliah_konsentrasi` ON `matakuliah_konsentrasi`.`kode_matakuliah` = `matakuliah`.`kode_matakuliah`
+LEFT JOIN `konsentrasi` ON `konsentrasi`.`kode_konsentrasi` = `matakuliah_konsentrasi`.`kode_konsentrasi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `matakuliah`.*, `konsentrasi`.`nama_konsentrasi`
+FROM `matakuliah`
+LEFT JOIN `matakuliah_konsentrasi` ON `matakuliah_konsentrasi`.`kode_matakuliah` = `matakuliah`.`kode_matakuliah`
+LEFT JOIN `konsentrasi` ON `konsentrasi`.`kode_konsentrasi` = `matakuliah_konsentrasi`.`kode_konsentrasi`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\dashboardController.php(81): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\dashboardController->matakuliah()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dashboardController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+INFO - 2023-07-19 11:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 11:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 12:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-19 13:22:14 --> Undefined variable $kode_matakuliah
+in APPPATH\Controllers\simDataController.php on line 58.
+ 1 APPPATH\Controllers\simDataController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode_matakuliah', 'D:\\Simulasi-studi\\app\\Controllers\\simDataController.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->matakuliah_update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-19 13:22:53 --> Undefined variable $kode_matakuliah
+in APPPATH\Controllers\simDataController.php on line 58.
+ 1 APPPATH\Controllers\simDataController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode_matakuliah', 'D:\\Simulasi-studi\\app\\Controllers\\simDataController.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->matakuliah_update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+INFO - 2023-07-19 13:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-19 13:28:30 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\simDataController.php(67): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->matakuliah_update()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+CRITICAL - 2023-07-19 13:28:32 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\simDataController.php(67): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->matakuliah_update()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+INFO - 2023-07-19 13:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-19 13:29:04 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\simDataController.php(67): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->matakuliah_update()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+INFO - 2023-07-19 13:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-19 13:31:39 --> Undefined variable $sifat
+in APPPATH\Controllers\simDataController.php on line 58.
+ 1 APPPATH\Controllers\simDataController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sifat', 'D:\\Simulasi-studi\\app\\Controllers\\simDataController.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->matakuliah_update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+INFO - 2023-07-19 13:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-19 13:31:56 --> Undefined variable $sifat
+in APPPATH\Controllers\simDataController.php on line 58.
+ 1 APPPATH\Controllers\simDataController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sifat', 'D:\\Simulasi-studi\\app\\Controllers\\simDataController.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->matakuliah_update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+INFO - 2023-07-19 13:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-19 13:38:21 --> Undefined array key "konsentrasi"
+in APPPATH\Controllers\simDataController.php on line 55.
+ 1 APPPATH\Controllers\simDataController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "konsentrasi"', 'D:\\Simulasi-studi\\app\\Controllers\\simDataController.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->matakuliah_update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+INFO - 2023-07-19 13:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-19 13:40:09 --> Undefined array key "konsentrasi"
+in APPPATH\Controllers\simDataController.php on line 56.
+ 1 APPPATH\Controllers\simDataController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "konsentrasi"', 'D:\\Simulasi-studi\\app\\Controllers\\simDataController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->matakuliah_update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+INFO - 2023-07-19 13:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-19 13:40:29 --> Undefined array key "konsentrasi"
+in APPPATH\Controllers\simDataController.php on line 56.
+ 1 APPPATH\Controllers\simDataController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "konsentrasi"', 'D:\\Simulasi-studi\\app\\Controllers\\simDataController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->matakuliah_update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+INFO - 2023-07-19 13:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-19 13:48:27 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\simDataController.php on line 59.
+ 1 APPPATH\Controllers\simDataController.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\Simulasi-studi\\app\\Controllers\\simDataController.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->matakuliah_update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+INFO - 2023-07-19 13:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-19 13:48:49 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\simDataController.php on line 59.
+ 1 APPPATH\Controllers\simDataController.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\Simulasi-studi\\app\\Controllers\\simDataController.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->matakuliah_update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+INFO - 2023-07-19 13:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-19 13:51:40 --> Undefined constant "App\Controllers\console"
+in APPPATH\Controllers\simDataController.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\simDataController->matakuliah_update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\simDataController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Simulasi-studi\\public\\index.php')
+INFO - 2023-07-19 13:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 13:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-19 15:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

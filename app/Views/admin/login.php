@@ -9,11 +9,11 @@
     <?php endif; ?>
     <div class="mb-3">
       <label for="email" class="form-label">Email:</label>
-      <input type="email" id="email" name="email" class="form-control" value="asda@dsa.com">
+      <input type="email" id="email" name="email" class="form-control" value="admin@email.com">
     </div>
     <div class="mb-3">
       <label for="password" class="form-label">Password:</label>
-      <input type="password" id="password" name="password" class="form-control" value="asa">
+      <input type="password" id="password" name="password" class="form-control" value="11111111">
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
